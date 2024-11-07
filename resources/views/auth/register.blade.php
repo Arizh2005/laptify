@@ -60,9 +60,7 @@
         <!-- Right Side (Logo and Design) -->
         <div class="w-1/2 bg-yellow-100 flex justify-center items-center">
             <div class="text-center">
-                <img src="/path/to/logo.png" alt="Byte Me Logo" class="mb-4 mx-auto w-32 h-auto"> <!-- Ganti dengan URL logo -->
-                <h1 class="text-4xl font-bold text-blue-800">Byte Me</h1>
-                <p class="text-blue-600 mt-2">Your tagline or slogan here</p>
+                <img src="{{ asset('images/bytme.png') }}" alt="Byte Me Logo" class="mb-4 mx-auto w-80 h-auto"> <!-- Ganti dengan URL logo -->
             </div>
         </div>
     </div>

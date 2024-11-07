@@ -25,7 +25,7 @@
 
                 {{--Admin Links--}}
                 @if (Auth::user()->usertype == 'admin')
-                <x-nav-link href="admin/product" :active="request()->routeIs('crud')">
+                <x-nav-link href="crud" :active="request()->routeIs('admin.crud')">
                     {{ __('Product') }}
                 </x-nav-link>
 
